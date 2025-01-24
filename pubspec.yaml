@@ -19,23 +19,3 @@ dev_dependencies:
   mockito: ^5.0.0
   flutter_test:
     sdk: flutter
-
-flutter:
-  plugin:
-    platforms:
-      android:
-        package: com.ciptaprogram.secure_time
-        pluginClass: SecureTimePlugin
-        fileName: lib/secure_time.dart
-      ios:
-        pluginClass: SecureTimePlugin
-        fileName: lib/secure_time.dart
-      web:
-        pluginClass: SecureTimePlugin
-        fileName: lib/secure_time.dart
-      macos:
-        pluginClass: SecureTimePlugin
-        fileName: lib/secure_time.dart
-
-  assets:
-    - lib/
