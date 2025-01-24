@@ -9,3 +9,7 @@
 ## 0.0.3
 
 - Add missing 'fileName' field in pubspec.yaml for plugin platforms.
+
+## 0.0.4
+
+- Remove plugins
