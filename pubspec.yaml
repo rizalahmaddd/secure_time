@@ -1,6 +1,6 @@
 name: secure_time
 description: A Flutter package for syncing and securing time with device boot time.
-version: 0.0.1
+version: 0.0.3
 homepage: https://github.com/rizalahmaddd/secure_time
 
 environment:
@@ -26,9 +26,16 @@ flutter:
       android:
         package: com.ciptaprogram.secure_time
         pluginClass: SecureTimePlugin
+        fileName: lib/secure_time.dart
       ios:
         pluginClass: SecureTimePlugin
+        fileName: lib/secure_time.dart
       web:
         pluginClass: SecureTimePlugin
+        fileName: lib/secure_time.dart
       macos:
         pluginClass: SecureTimePlugin
+        fileName: lib/secure_time.dart
+
+  assets:
+    - lib/
